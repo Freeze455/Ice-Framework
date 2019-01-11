@@ -1,0 +1,25 @@
+.ice-row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+
+    @for $i from 1 through 12 {
+        .col-sm-#{$i} {grid-column: span $i;}
+    }
+
+    
+    // DEFAULT PROPERTIES FOR TABLET
+    @media screen and (min-width: 768px) {
+        @for $i from 1 through 12 {
+            .col-tab-#{$i} {grid-column: span $i;}
+        }
+    }
+
+
+    // DEFAULT PROPERTIES FOR DESKTOP
+    @media screen and (min-width: 1280px) {
+        @for $i from 1 through 12 {
+            .col-desk-#{$i} {grid-column: span $i;}
+        }
+    }
+}

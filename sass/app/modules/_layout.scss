@@ -1,0 +1,22 @@
+.ice-sm-container {max-width: 90%;margin: auto; position: relative;}
+.ice-sm-container-fluid {max-width: 100%; width:100vw;margin: auto; position: relative;}
+.display-sm-none {display: none;}
+
+
+// DEFAULT PROPERTIES FOR TABLET
+@media screen and (min-width: 768px) {
+    .ice-tab-container {max-width: 90%;margin: auto; position: relative;}
+    .ice-tab-container-fluid {max-width: 100%; width:100vw;margin: auto; position: relative;}
+    .display-sm-none {display: block;}
+    .display-tab-none {display: none;}
+}
+
+
+// DEFAULT PROPERTIES FOR DESKTOP
+@media screen and (min-width: 1280px) {
+    .ice-desk-container {max-width: 90%;margin: auto; position: relative;}
+    .ice-desk-container-fluid {max-width: 100%; width:100vw;margin: auto; position: relative;}
+    .display-sm-none {display: block;}
+    .display-tab-none {display: block;}
+    .display-desk-none {display: none;}
+}

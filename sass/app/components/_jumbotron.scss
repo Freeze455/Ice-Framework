@@ -1,0 +1,72 @@
+.ice-jumbotron {
+    width: 100vw;
+    height: 50vw;
+
+    &:nth-child(odd) {background-color: $white; text-align: left;}
+    &:nth-child(even) {background-color: $light-aqua; text-align: right;}
+
+    .jumbotron-container {
+        padding: 2em;
+
+        .jumbotron-title {
+            font-size: 10px;
+        }
+
+        .jumbotron-describe {
+            font-size: 12px;
+        }
+
+        .jumbotron-content {
+            font-size: 12px; 
+            font-weight: 500;
+        }
+    }
+    
+
+
+    // DEFAULT PROPERTIES FOR TABLET
+    @media screen and (min-width: 814px) {
+        height: 50vh;
+
+        .jumbotron-container {
+            padding: 5%;
+            width: 90%;
+            margin: auto;
+
+            .jumbotron-title {
+                font-size: 20px;
+            }
+    
+            .jumbotron-describe {
+                font-size: 16px;
+            }
+
+            .jumbotron-content {
+                font-size: 16px;
+            }
+        }
+    }
+
+
+    // DEFAULT PROPERTIES FOR DESKTOP
+    @media screen and (min-width: 1280px) {
+
+        .jumbotron-container {
+            width: 80%;
+            margin: auto;
+
+            .jumbotron-title {
+                font-size: 24px;
+            }
+    
+            .jumbotron-describe {
+                font-size: 18px; 
+            }
+
+            .jumbotron-content {
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+}

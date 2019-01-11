@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.ice-max-size {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.ice-round {
+    @extend .ice-max-size;
+    border-radius: 50%;
+}
+
+.ice-blur {
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}

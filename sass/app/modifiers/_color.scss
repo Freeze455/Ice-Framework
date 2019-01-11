@@ -1,0 +1,56 @@
+// Colors
+$blue: #007bff;
+$light-aqua: #e9ecef;;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #f00018;
+$orange: #fd7e14;
+$yellow: #ffc107;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$white: #fff;
+$ray: #6c757d;
+$light-gray: #e6e6e6;
+$gray-dark: #343a40;
+$primary: #007bff;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+
+.bg-blue {background-color: $blue !important; color: $white !important}
+
+.bg-indigo {background-color: $indigo !important; color: $white !important}
+.bg-purple {background-color: $purple !important; color: $white !important}
+.bg-pink {background-color: $pink !important; color: $white !important}
+.bg-red {background-color: $red !important; color: $white !important}
+.bg-orange {background-color: $orange !important; color: $white !important}
+.bg-yellow {background-color: $yellow !important; color: $white !important}
+.bg-green {background-color: $green !important; color: $white !important}
+.bg-teal {background-color: $teal !important; color: $white !important}
+.bg-cyan {background-color: $cyan !important; color: $white !important}
+.bg-white {background-color: $white !important; color: $dark !important}
+.bg-ray {background-color: $ray !important; color: $white !important}
+.bg-gray-dark {background-color: $gray-dark !important; color: $white !important}
+.bg-light {background-color: $light !important; color: $dark !important}
+.bg-dark {background-color: $dark !important; color: $white !important}
+
+.color-blue {color: $blue !important;}
+.color-indigo {color: $indigo !important;}
+.color-purple {color: $purple !important;}
+.color-pink {color: $pink !important;}
+.color-red {color: $red !important;}
+.color-orange {color: $orange !important;}
+.color-yellow {color: $yellow !important;}
+.color-green {color: $green !important;}
+.color-teal {color: $teal !important;}
+.color-cyan {color: $cyan !important;}
+.color-white {color: $white !important;}
+.color-ray {color: $ray !important;}
+.color-gray-dark {color: $gray-dark !important; }
+.color-light {color: $light !important;}
+.color-dark {color: $dark !important;}

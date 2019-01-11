@@ -1,0 +1,33 @@
+.ice-btn { 
+    outline: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.3s;
+    transition: $hover-transition;
+
+    &.bg-blue:hover {background-color: #006bdd !important;}
+    // &.bg-indigo:hover {background-color: $indigo !important;}
+    // &.bg-purple:hover {background-color: $purple !important;}
+    // &.bg-pink:hover {background-color: $pink !important;}
+    // &.bg-red:hover {background-color: $red !important;}
+    // &.bg-orange:hover {background-color: $orange !important;}
+    // &.bg-yellow:hover {background-color: $yellow !important;}
+    // &.bg-green:hover {background-color: $green !important;}
+    // &.bg-teal:hover {background-color: $teal !important;}
+    // &.bg-cyan:hover {background-color: $cyan !important;}
+    // &.bg-white:hover {background-color: $white !important;}
+    // &.bg-ray:hover {background-color: $ray !important;}
+    // &.bg-gray-dark:hover {background-color: $gray-dark !important;}
+    // &.bg-light:hover {background-color: $light !important;}
+    // &.bg-dark:hover {background-color: $dark !important;}
+}

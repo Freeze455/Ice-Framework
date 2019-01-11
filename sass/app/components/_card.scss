@@ -1,0 +1,41 @@
+.ice-card {
+    box-shadow: $card-box-shadows;
+    overflow: hidden;
+    text-align: center;
+
+    .card-image {
+        overflow: hidden;
+        max-height: 30vh;
+    }  
+    
+    img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        transition: $hover-card-transition;
+    }
+
+    &:hover img {
+        transform: scale(1.2)
+    }
+
+    .card-title {
+        font-size: 22px;
+        padding: 0.5em;
+        overflow: hidden;
+        background-color: $white;
+    }
+
+    .card-content {
+        background-color: $white;
+        -webkit-line-clamp: $card-content-max-line;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        padding: 1em;
+    }
+}

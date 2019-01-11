@@ -1,0 +1,117 @@
+// Font-family properties
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500');
+
+html {
+    overflow-x: hidden;
+    margin: 0;
+    scroll-behavior: smooth;
+
+    body {
+        font-family: "Rubik", sans-serif, Verdana, sans-serif;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 0;
+    }
+}
+
+// DEFAULT PROPERTIES FOR SMARTPHONE
+h1, h2, h3, h4, h5, h6 {
+    margin:0;
+    font-weight: 400;
+}
+
+hr {
+    margin: 1.5rem 0 !important;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+@for $i from 0 through 10 {
+    .fs-sm-#{$i} {font-size: 4px*$i !important;}   // Font-Size
+
+    .mt-sm-#{$i} {margin-top: 0.25em*$i !important;}
+    .ml-sm-#{$i} {margin-left: 0.25em*$i !important;}
+    .mr-sm-#{$i} {margin-right: 0.25em*$i !important;}
+    .mb-sm-#{$i} {margin-bottom: 0.25em*$i !important;}
+
+    .pt-sm-#{$i} {padding-top: 0.25em*$i !important;}
+    .pl-sm-#{$i} {padding-left: 0.25em*$i !important;}
+    .pr-sm-#{$i} {padding-right: 0.25em*$i !important;}
+    .pb-sm-#{$i} {padding-bottom: 0.25em*$i !important;}
+}
+
+@for $i from 1 through 8 {
+    .w-sm-#{$i} {width: 12.5%*$i !important;}.mw-sm-#{$i} {max-width: 5vh*$i !important;}
+    .vw-sm-#{$i} {width: 12.5vh*$i !important;}.mvw-sm-#{$i} {max-width: 5vh*$i !important;}
+}
+
+@for $i from 1 through 20 {
+    .h-sm-#{$i} {height: 5%*$i !important;}.mh-sm-#{$i} {max-height: 5%*$i !important;}
+    .vh-sm-#{$i} {height: 5vh*$i !important;}.mvh-sm-#{$i} {max-height: 5vh*$i !important;}
+}
+
+
+// DEFAULT PROPERTIES FOR TABLET
+@media screen and (min-width: 768px) {
+
+    @for $i from 1 through 6 {
+        h#{$i} {font-size: 60px/$i}
+    }
+
+    @for $i from 0 through 10 {
+        .fs-tab-#{$i} {font-size: 4px*$i !important;}
+
+        .mt-tab-#{$i} {margin-top: 0.25rem*$i !important;}
+        .ml-tab-#{$i} {margin-left: 0.25rem*$i !important;}
+        .mr-tab-#{$i} {margin-right: 0.25rem*$i !important;}
+        .mb-tab-#{$i} {margin-bottom: 0.25rem*$i !important;}
+
+        .pt-tab-#{$i} {padding-top: 0.25em*$i !important;}
+        .pl-tab-#{$i} {padding-left: 0.25em*$i !important;}
+        .pr-tab-#{$i} {padding-right: 0.25em*$i !important;}
+        .pb-tab-#{$i} {padding-bottom: 0.25em*$i !important;}
+    }
+
+    @for $i from 1 through 8 {
+        .w-tab-#{$i} {width: 12.5%*$i !important;}.mw-tab-#{$i} {max-width: 5%*$i !important;}
+        .vw-tab-#{$i} {width: 12.5vh*$i !important;}.mvw-tab-#{$i} {max-width: 5vh*$i !important;}
+    }
+
+    @for $i from 1 through 20 {
+        .h-tab-#{$i} {height: 5%*$i !important;}.mh-tab-#{$i} {max-height: 5%*$i !important;}
+        .vh-tab-#{$i} {height: 5vh*$i !important;}.mvh-tab-#{$i} {max-height: 5vh*$i !important;}
+    }
+
+}
+
+
+// DEFAULT PROPERTIES FOR DESKTOP
+@media screen and (min-width: 1280px) {
+
+    @for $i from 0 through 10 {
+        .fs-desk-#{$i} {font-size: 4px*$i !important;}
+
+        .mt-desk-#{$i} {margin-top: 0.25rem*$i !important;}
+        .ml-desk-#{$i} {margin-left: 0.25rem*$i !important;}
+        .mr-desk-#{$i} {margin-right: 0.25rem*$i !important;}
+        .mb-desk-#{$i} {margin-bottom: 0.25rem*$i !important;}
+
+        .pt-desk-#{$i} {padding-top: 0.25em*$i !important;}
+        .pl-desk-#{$i} {padding-left: 0.25em*$i !important;}
+        .pr-desk-#{$i} {padding-right: 0.25em*$i !important;}
+        .pb-desk-#{$i} {padding-bottom: 0.25em*$i !important;}
+        }
+
+    @for $i from 1 through 8 {
+        .w-desk-#{$i} { width: 12.5%*$i !important;}.mw-desk-#{$i} {max-width: 5%*$i !important;}
+        .wh-desk-#{$i} {width: 12.5vh*$i !important;}.mvh-desk-#{$i} {max-height: 5vh*$i !important;}
+    }
+
+    @for $i from 1 through 20 {
+        .h-desk-#{$i} {height: 5%*$i !important;}.mh-desk-#{$i} {max-height: 5%*$i !important;}
+        .vh-desk-#{$i} {height: 5vh*$i !important;}.mvh-desk-#{$i} {max-height: 5vh*$i !important;}
+    }
+
+}
+
