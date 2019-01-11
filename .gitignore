@@ -1,5 +1,6 @@
 .sass-cache/
 *.css.map
-*.css
+*cat.css
+*style.css
 *.bat
 *.html
