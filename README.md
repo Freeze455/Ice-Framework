@@ -3,20 +3,47 @@
 ICE is a framework developed for the purpose of having a lighter alternative to large frameworks.
 You will find the basic elements (typology, layouts, animations ...) and various components such as a slider, cards, jumbotron ...
 
-### Installing
+## Installing
 
 Afin d'utiliser le framework ICE, veuillez ajouter dans votre page le code suivant :
 ```html
 <link rel="stylesheet" href="http://93.26.101.34/assets/css/style.min.css">
+<script src="soon></script>
 ```
 
-### The framework structure
+## The framework structure
 
 Soon
 
-### Coding your page
+## Coding your page
 
-Soon
+###Components
+If you would create a new menu, you cas use this code in your html page.
+```html
+<div class="ice-menu" sticky>
+    <a href="#" class="menu-logo"></a>
+    <div class="menu-container">
+        <div class="menu-content" id="menu-content">
+            <nav>
+                <ul>
+                    <li><a href="#">Découvrir</a></li>
+                    <li><a href="#">Comment ça marche</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="button button-sign-up">S'inscrire</a>
+            <a href="#" class="button button-sign-in">Se connecter</a>
+        </div>
+        <button class="menu-button" id="menu-button">&#9776;</button>
+        <div class="menu-sidebar">
+            <div class="menu-sidebar-header"></div>
+            <div class="menu-sidebar-body" id="menu-sidebar-body"></div>
+        </div>
+        <div class="menu-overlay" id="menu-overlay"></div>
+    </div>
+</div>
+```
 
 ## Built With
 
