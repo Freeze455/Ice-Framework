@@ -47,7 +47,6 @@ If you would create a new menu, you can use this code in your html page. Don't f
 
 ### Slider
 For the moment, you can't show many images (soon ?). In this area, you can add a text here with "display-$your_position"
->NOTE : If you add more jumbotrons, they will be alternated left and right.
 ```html
 <div class="ice-sm-container-fluid">
     <div class="ice-slider">
