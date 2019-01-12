@@ -53,7 +53,7 @@ hr {
 
 
 // DEFAULT PROPERTIES FOR TABLET
-@media screen and (min-width: 768px) {
+@media #{$tablet} {
 
     @for $i from 1 through 6 {
         h#{$i} {font-size: 60px/$i}
@@ -87,7 +87,7 @@ hr {
 
 
 // DEFAULT PROPERTIES FOR DESKTOP
-@media screen and (min-width: 1280px) {
+@media #{$desktop} {
 
     @for $i from 0 through 10 {
         .fs-desk-#{$i} {font-size: 4px*$i !important;}

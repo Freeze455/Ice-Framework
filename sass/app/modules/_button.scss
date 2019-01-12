@@ -1,4 +1,5 @@
-.ice-btn { 
+$color-variant: 10;
+.#{$prefix}-btn { 
     outline: none;
     border: none;
     display: inline-block;
@@ -15,19 +16,19 @@
     transition: 0.3s;
     transition: $hover-transition;
 
-    &.bg-blue:hover {background-color: #006bdd !important;}
-    // &.bg-indigo:hover {background-color: $indigo !important;}
-    // &.bg-purple:hover {background-color: $purple !important;}
-    // &.bg-pink:hover {background-color: $pink !important;}
-    // &.bg-red:hover {background-color: $red !important;}
-    // &.bg-orange:hover {background-color: $orange !important;}
-    // &.bg-yellow:hover {background-color: $yellow !important;}
-    // &.bg-green:hover {background-color: $green !important;}
-    // &.bg-teal:hover {background-color: $teal !important;}
-    // &.bg-cyan:hover {background-color: $cyan !important;}
-    // &.bg-white:hover {background-color: $white !important;}
-    // &.bg-ray:hover {background-color: $ray !important;}
-    // &.bg-gray-dark:hover {background-color: $gray-dark !important;}
-    // &.bg-light:hover {background-color: $light !important;}
-    // &.bg-dark:hover {background-color: $dark !important;}
+    &.bg-blue:hover {background-color: darken($blue, $color-variant) !important;}
+    &.bg-indigo:hover {background-color: darken($indigo, $color-variant) !important;}
+    &.bg-purple:hover {background-color: darken($purple, $color-variant) !important;}
+    &.bg-pink:hover {background-color: darken($pink, $color-variant) !important;}
+    &.bg-red:hover {background-color: darken($red, $color-variant) !important;}
+    &.bg-orange:hover {background-color: darken($orange, $color-variant) !important;}
+    &.bg-yellow:hover {background-color:darken($yellow, $color-variant) !important;}
+    &.bg-green:hover {background-color: darken($green, $color-variant) !important;}
+    &.bg-teal:hover {background-color: darken($teal, $color-variant) !important;}
+    &.bg-cyan:hover {background-color: darken($cyan, $color-variant) !important;}
+    &.bg-white:hover {background-color: darken($white, $color-variant) !important;}
+    &.bg-ray:hover {background-color: darken($ray, $color-variant) !important;}
+    &.bg-gray-dark:hover {background-color: darken($gray-dark, $color-variant) !important;}
+    &.bg-light:hover {background-color: darken($light, $color-variant) !important;}
+    &.bg-dark:hover {background-color: darken($dark, $color-variant) !important;}
 }

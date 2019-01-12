@@ -3,19 +3,19 @@ img {
     height: auto
 }
 
-.ice-max-size {
+.#{$prefix}-max-size {
     display: block;
     object-fit: cover;
     width: 100%;
     height: auto;
 }
 
-.ice-round {
-    @extend .ice-max-size;
+.#{$prefix}-round {
+    @extend .#{$prefix}-max-size;
     border-radius: 50%;
 }
 
-.ice-blur {
+.#{$prefix}-blur {
     -moz-filter: blur(3px);
     -o-filter: blur(3px);
     -ms-filter: blur(3px);

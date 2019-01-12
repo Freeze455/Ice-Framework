@@ -2,5 +2,6 @@
 *.css.map
 *cat.css
 *style.css
+*main.js
 *.bat
 *.html

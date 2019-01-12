@@ -1,4 +1,4 @@
-.ice-row {
+.#{$prefix}-row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 
@@ -9,7 +9,7 @@
 
     
     // DEFAULT PROPERTIES FOR TABLET
-    @media screen and (min-width: 768px) {
+    @media #{$tablet} {
         @for $i from 1 through 12 {
             .col-tab-#{$i} {grid-column: span $i;}
         }
@@ -17,7 +17,7 @@
 
 
     // DEFAULT PROPERTIES FOR DESKTOP
-    @media screen and (min-width: 1280px) {
+    @media #{$desktop} {
         @for $i from 1 through 12 {
             .col-desk-#{$i} {grid-column: span $i;}
         }

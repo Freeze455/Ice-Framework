@@ -7,8 +7,8 @@ You will find the basic elements (typology, layouts, animations ...) and various
 
 Afin d'utiliser le framework ICE, veuillez ajouter dans votre page le code suivant :
 ```html
-<link rel="stylesheet" href="http://93.26.101.34/assets/css/style.min.css">
-<script src="soon></script>
+<link rel="stylesheet" href="http://93.26.101.34/assets/css/ice.min.css">
+<script src="http://93.26.101.34/assets/js/ice.min.js"></script>
 ```
 
 ## The framework structure

@@ -1,0 +1,29 @@
+.#{$prefix}-form {
+    margin: auto;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+
+    // DEFAULT PROPERTIES FOR TABLET
+    @media #{$tablet} {
+        width: 75% !important;
+    }
+
+    .#{$prefix}-form-header {
+        font-size: 20px;
+        text-align: center;
+
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+
+    .#{$prefix}-form-footer {
+        font-size: 16px;
+        text-align: center;
+
+        margin-top: 10px;
+        padding: 4px;
+    }
+
+    form {
+        padding: 20px;
+    }
+}

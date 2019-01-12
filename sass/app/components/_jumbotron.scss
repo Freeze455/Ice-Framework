@@ -1,6 +1,6 @@
-.ice-jumbotron {
+.#{$prefix}-jumbotron {
     width: 100vw;
-    height: 50vw;
+    height: auto;
 
     &:nth-child(odd) {background-color: $white; text-align: left;}
     &:nth-child(even) {background-color: $light-aqua; text-align: right;}
@@ -25,8 +25,7 @@
 
 
     // DEFAULT PROPERTIES FOR TABLET
-    @media screen and (min-width: 814px) {
-        height: 50vh;
+    @media #{$tablet} {
 
         .jumbotron-container {
             padding: 5%;
@@ -49,7 +48,7 @@
 
 
     // DEFAULT PROPERTIES FOR DESKTOP
-    @media screen and (min-width: 1280px) {
+    @media #{$desktop} {
 
         .jumbotron-container {
             width: 80%;

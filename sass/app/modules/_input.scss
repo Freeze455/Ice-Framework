@@ -1,45 +1,15 @@
-.ice-form {
-    margin: auto;
-    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+.#{$prefix}-input {
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    resize: vertical;
+}
 
-    // DEFAULT PROPERTIES FOR TABLET
-    @media screen and (min-width: 768px) {
-        width: 75% !important;
-    }
-
-    .ice-form-header {
-        font-size: 20px;
-        text-align: center;
-
-        margin-bottom: 10px;
-        padding: 10px;
-    }
-
-    .ice-form-footer {
-        font-size: 16px;
-        text-align: center;
-
-        margin-top: 10px;
-        padding: 4px;
-    }
-
-    form {
-        padding: 20px;
-        
-        .ice-input {
-            padding: 10px;
-            display: block;
-            border: none;
-            border-bottom: 1px solid #ccc;
-            width: 100%;
-            resize: vertical;
-        }
-
-        .ice-select {
-            padding: 9px 0;
-            width: 100%;
-            border: none;
-            border-bottom: 1px solid #ccc
-        }
-    }
+.#{$prefix}-select {
+    padding: 9px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc
 }

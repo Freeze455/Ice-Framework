@@ -1,3 +1,10 @@
+// MediaQuery
+$tablet: "screen and (min-width: 768px)";
+$desktop: "screen and (min-width: 1280px)";     $max-desktop: "screen and (max-width: 1024px)";
+
+// Prefix
+$prefix: "ice";
+
 // Buttons
 $hover-transition: .3s;
 $hover-scale: scale(1.1);

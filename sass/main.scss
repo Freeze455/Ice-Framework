@@ -3,20 +3,24 @@
 @import "app/typographie";
 
 
+// Modifiers
+@import "app/modifiers/color.scss";
+@import "app/modifiers/animation.scss";
+
+
 // Modules
 @import "app/modules/layout.scss";
+@import "app/modules/table.scss";
 @import "app/modules/row.scss";
 @import "app/modules/input.scss";
 @import "app/modules/button.scss";
 @import "app/modules/image.scss";
 
 
-// Modifiers
-@import "app/modifiers/color.scss";
-@import "app/modifiers/animation.scss";
-
-
 // Components
+@import "app/components/header-menu.scss";
+@import "app/components/sidebar-menu.scss";
 @import "app/components/jumbotron.scss";
 @import "app/components/slider.scss";
 @import "app/components/card.scss";
+@import "app/components/input-form.scss";
