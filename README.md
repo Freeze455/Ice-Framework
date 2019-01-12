@@ -15,9 +15,9 @@ Afin d'utiliser le framework ICE, veuillez ajouter dans votre page le code suiva
 
 Soon
 
-## Coding your page
+## Components
 
-### Components
+### Menu
 If you would create a new menu, you can use this code in your html page. Don't forget to include js file in your <head>
 ```html
 <div class="ice-menu"> <!-- If you want to have a sticky menu, you should add "sticky" tag here -->
@@ -45,6 +45,21 @@ If you would create a new menu, you can use this code in your html page. Don't f
 </div>
 ```
 
+### Jumbotron
+Initially, the jumbotron is used to create a visible area when loading the page in which you want to indicate important information.
+Be aware, however, that no child element of jumbotron-container is required.
+In this way, you can better modulate your element.
+```html
+<div class="ice-jumbotron">
+    <div class="jumbotron-container">
+        <div class="jumbotron-title"><h1>I'm a title</h1></div>
+        <div class="jumbotron-describe">I'm a short describe</div>
+        <hr>
+        <div class="jumbotron-content">I'm a content to my jumbotron</div>
+        <div class="ice-btn bg-green">If you want to add a button link</div>
+    </div>
+</div>
+```
 
 ## Built With
 
