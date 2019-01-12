@@ -45,6 +45,23 @@ If you would create a new menu, you can use this code in your html page. Don't f
 </div>
 ```
 
+### Slider
+For the moment, you can't show many images (soon ?). In this area, you can add a text here with "display-$your_position"
+>NOTE : If you add more jumbotrons, they will be alternated left and right.
+```html
+<div class="ice-sm-container-fluid">
+    <div class="ice-slider">
+        <img class="slider-image" src="https://cdn.allwallpaper.in/wallpapers/1920x1080/8789/champs-elyses-paris-cities-light-lights-1920x1080-wallpaper.jpg"> <!-- Choose your image -->
+        <div class="slider-overlay"></div> <!-- Keep empty this tag -->
+        <div class="display-center">display center</div>
+        <div class="display-bottom-right">display bottom right</div>
+        <div class="display-bottom-left">display bottom left</div>
+        <div class="display-top-left">display top left</div>
+        <div class="display-top-right">display top right</div>
+    </div>
+</div>
+```
+
 ### Jumbotron
 Initially, the jumbotron is used to create a visible area when loading the page in which you want to indicate important information.
 Be aware, however, that no child element of jumbotron-container is required.
