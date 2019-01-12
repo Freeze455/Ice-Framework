@@ -17,7 +17,7 @@ Soon
 
 ## Coding your page
 
-###Components
+### Components
 If you would create a new menu, you cas use this code in your html page.
 ```html
 <div class="ice-menu" sticky>
