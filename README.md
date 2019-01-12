@@ -20,7 +20,7 @@ Soon
 ### Components
 If you would create a new menu, you can use this code in your html page. Don't forget to include js file in your <head>
 ```html
-<div class="ice-menu"> <!-- If you want to have a sticky menu, you should add  sticky tag here -->
+<div class="ice-menu"> <!-- If you want to have a sticky menu, you should add "sticky" tag here -->
     <a href="#" class="menu-logo"></a>
     <div class="menu-container">
         <div class="menu-content" id="menu-content">
