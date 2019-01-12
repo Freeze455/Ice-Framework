@@ -49,6 +49,7 @@ If you would create a new menu, you can use this code in your html page. Don't f
 Initially, the jumbotron is used to create a visible area when loading the page in which you want to indicate important information.
 Be aware, however, that no child element of jumbotron-container is required.
 In this way, you can better modulate your element.
+*NOTE : If you add more jumbotrons, they will be alternated left and right.*
 ```html
 <div class="ice-jumbotron">
     <div class="jumbotron-container">
