@@ -12,8 +12,7 @@ Main Page Content
 .cd-main-content .content-wrapper {
   padding: 45px 5% 3em;
 }
-.cd-main-content .content-wrapper h1 {
-  text-align: center;
+.cd-main-content .content-wrapper > * {
   padding: 3em 0;
   font-size: 2rem;
 }
@@ -257,6 +256,7 @@ Sidebar
   visibility: hidden;
   opacity: 0;
   max-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

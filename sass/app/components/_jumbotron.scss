@@ -8,8 +8,17 @@
     .jumbotron-container {
         padding: 2em;
 
+        .jumbotron-image {
+            width: 25vw;
+
+            &[center] {
+                margin: auto;
+            }
+        }
+
         .jumbotron-title {
-            font-size: 10px;
+            font-size: 24px;
+            font-weight: 400;
         }
 
         .jumbotron-describe {
@@ -33,7 +42,7 @@
             margin: auto;
 
             .jumbotron-title {
-                font-size: 20px;
+                font-size: 40px;
             }
     
             .jumbotron-describe {
@@ -55,7 +64,7 @@
             margin: auto;
 
             .jumbotron-title {
-                font-size: 24px;
+                font-size: 54px;
             }
     
             .jumbotron-describe {

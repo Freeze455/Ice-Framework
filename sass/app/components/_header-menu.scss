@@ -5,7 +5,7 @@
     font-size: 15px;
     box-shadow: 0 1px 16px rgba(0, 0, 0, .4);
 
-    @media #{$desktop} {
+    @media #{$tablet} {
         &[sticky] {
             z-index: 1;
             top: 0;
@@ -15,7 +15,7 @@
         }
     }
     
-    .menu-logo, nav, li {
+    .menu-logo, .menu-title, nav, li {
         display: inline-block;
     }
     
@@ -26,6 +26,13 @@
         height: 54px;
         overflow: hidden;
     }
+
+    .menu-title {
+        height: 54px;
+        font-size: 2rem;
+        line-height: 48px;
+    }
+
     nav {
         display: inline-block;
         line-height: 48px;
@@ -35,9 +42,10 @@
     li {
         margin-left: 32px;
     }
+
     li a, .button {
         text-decoration: none;
-        color: rgb(0, 0, 0);
+        color: inherit;
         font-weight: 400;
     }
     
@@ -51,7 +59,7 @@
         padding: 0 16px;
     }
     .button-sign-up {
-        background-color: #EEE;
+
     }
 
     .menu-overlay {

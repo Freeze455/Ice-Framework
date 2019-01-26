@@ -1,6 +1,11 @@
 .#{$prefix}-row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 20px;
+
+    @media #{$tablet} {
+        grid-row-gap: 15px;
+    }
 
 
     @for $i from 1 through 12 {

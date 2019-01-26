@@ -21,10 +21,27 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
+
+$base-font-size: 12px;
+$heading-scale: 8;
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+  }
+}
+
 hr {
     margin: 1.5rem 0 !important;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
+}
+
+[text-center] {
+    text-align: center;
+}
+
+[center] {
+    margin: auto;
 }
 
 @for $i from 0 through 10 {
@@ -35,6 +52,7 @@ hr {
     .mr-sm-#{$i} {margin-right: 0.25em*$i !important;}
     .mb-sm-#{$i} {margin-bottom: 0.25em*$i !important;}
 
+    .p-sm-#{$i} {padding: 0.25em*$i !important;}
     .pt-sm-#{$i} {padding-top: 0.25em*$i !important;}
     .pl-sm-#{$i} {padding-left: 0.25em*$i !important;}
     .pr-sm-#{$i} {padding-right: 0.25em*$i !important;}
@@ -55,8 +73,12 @@ hr {
 // DEFAULT PROPERTIES FOR TABLET
 @media #{$tablet} {
 
+    $base-font-size: 18px;
+    $heading-scale: 8;
     @for $i from 1 through 6 {
-        h#{$i} {font-size: 60px/$i}
+        h#{$i} {
+            font-size: $base-font-size + $heading-scale * (6 - $i);
+        }
     }
 
     @for $i from 0 through 10 {
@@ -67,6 +89,7 @@ hr {
         .mr-tab-#{$i} {margin-right: 0.25rem*$i !important;}
         .mb-tab-#{$i} {margin-bottom: 0.25rem*$i !important;}
 
+        .p-tab-#{$i} {padding: 0.25em*$i !important;}
         .pt-tab-#{$i} {padding-top: 0.25em*$i !important;}
         .pl-tab-#{$i} {padding-left: 0.25em*$i !important;}
         .pr-tab-#{$i} {padding-right: 0.25em*$i !important;}
@@ -97,6 +120,7 @@ hr {
         .mr-desk-#{$i} {margin-right: 0.25rem*$i !important;}
         .mb-desk-#{$i} {margin-bottom: 0.25rem*$i !important;}
 
+        .p-desk-#{$i} {padding: 0.25em*$i !important;}
         .pt-desk-#{$i} {padding-top: 0.25em*$i !important;}
         .pl-desk-#{$i} {padding-left: 0.25em*$i !important;}
         .pr-desk-#{$i} {padding-right: 0.25em*$i !important;}
@@ -105,7 +129,7 @@ hr {
 
     @for $i from 1 through 8 {
         .w-desk-#{$i} { width: 12.5%*$i !important;}.mw-desk-#{$i} {max-width: 5%*$i !important;}
-        .wh-desk-#{$i} {width: 12.5vh*$i !important;}.mvh-desk-#{$i} {max-height: 5vh*$i !important;}
+        .vw-desk-#{$i} {width: 12.5vh*$i !important;}.mvw-desk-#{$i} {max-height: 5vh*$i !important;}
     }
 
     @for $i from 1 through 20 {
